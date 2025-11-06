@@ -20,50 +20,64 @@ layout = widgets.Layout(
 )
 
 legend_dict = {
-    "111 Continuous urban fabric": "9e9e9e",
-    "112 Discontinuous urban fabric": "dcdcdc",
-    "121 Industrial or commercial units": "cc99ff",
-    "122 Road and rail networks and associated land": "cc66ff",
-    "123 Port areas": "9900ff",
-    "124 Airports": "ffcc99",
-    "131 Mineral extraction sites": "ff6600",
-    "132 Dump sites": "ff0000",
-    "133 Construction sites": "cc3300",
-    "141 Green urban areas": "ffff00",
-    "142 Sport and leisure facilities": "ccff33",
-    "211 Non-irrigated arable land": "99ff33",
-    "212 Permanently irrigated land": "66ff00",
-    "213 Rice fields": "33cc00",
-    "221 Vineyards": "009900",
-    "222 Fruit trees and berry plantations": "006600",
-    "223 Olive groves": "99cc00",
-    "231 Pastures": "cccc00",
-    "241 Annual crops associated with permanent crops": "669900",
-    "242 Complex cultivation patterns": "99ffcc",
-    "243 Land principally occupied by agriculture, with significant areas of natural vegetation": "66cc99",
-    "244 Agro-forestry areas": "339966",
-    "311 Broad-leaved forest": "006633",
-    "312 Coniferous forest": "99ffff",
-    "313 Mixed forest": "66ffff",
-    "321 Natural grasslands": "33cccc",
-    "322 Moors and heathland": "009999",
-    "323 Sclerophyllous vegetation": "003366",
-    "324 Transitional woodland-shrub": "99ccff",
-    "331 Beaches, dunes, sands": "6699ff",
-    "332 Bare rocks": "3366ff",
-    "333 Sparsely vegetated areas": "0033cc",
-    "334 Burnt areas": "000099",
-    "335 Glaciers and perpetual snow": "9999ff",
-    "411 Inland marshes": "6666cc",
-    "412 Peat bogs": "333399",
-    "421 Salt marshes": "ff99cc",
-    "422 Salines": "ff66cc",
-    "423 Intertidal flats": "ff3399",
-    "511 Water courses": "cc0066",
-    "512 Water bodies": "990033",
-    "521 Coastal lagoons": "ffcccc",
-    "522 Estuaries": "ff99cc",
-    "523 Sea and ocean": "ff66cc"
+    "111 Continuous urban fabric": "e6004d",
+    "112 Discontinuous urban fabric": "ff0000",
+
+    "121 Industrial or commercial units": "cc4df2",
+    "122 Road and rail networks and associated land": "cc0000",
+    "123 Port areas": "e6cccc",
+    "124 Airports": "e6cce6",
+
+    "131 Mineral extraction sites": "a600cc",
+    "132 Dump sites": "a64d00",
+    "133 Construction sites": "ff4dff",
+
+    "141 Green urban areas": "ffa6ff",
+    "142 Sport and leisure facilities": "ffe6ff",
+
+    "211 Non-irrigated arable land": "ffffa8",
+    "212 Permanently irrigated land": "ffff00",
+    "213 Rice fields": "e6e600",
+
+    "221 Vineyards": "e68000",
+    "222 Fruit trees and berry plantations": "f2a64d",
+    "223 Olive groves": "e6a600",
+
+    "231 Pastures": "e6e64d",
+
+    "241 Annual crops associated with permanent crops": "ffe6a6",
+    "242 Complex cultivation patterns": "ffe64d",
+    "243 Land principally occupied by agriculture, with significant areas of natural vegetation": "e6cc4d",
+    "244 Agro-forestry areas": "f2cca6",
+
+    "311 Broad-leaved forest": "80ff00",
+    "312 Coniferous forest": "00a600",
+    "313 Mixed forest": "4dff00",
+
+    "321 Natural grasslands": "ccf24d",
+    "322 Moors and heathland": "a6ff80",
+    "323 Sclerophyllous vegetation": "a6e64d",
+    "324 Transitional woodland-shrub": "a6f200",
+
+    "331 Beaches, dunes, sands": "e6e6e6",
+    "332 Bare rocks": "cccccc",
+    "333 Sparsely vegetated areas": "ccffcc",
+    "334 Burnt areas": "000000",
+    "335 Glaciers and perpetual snow": "a6e6cc",
+
+    "411 Inland marshes": "a6a6ff",
+    "412 Peat bogs": "4d4dff",
+
+    "421 Salt marshes": "ccccff",
+    "422 Salines": "e6e6ff",
+    "423 Intertidal flats": "a6a6e6",
+
+    "511 Water courses": "00ccf2",
+    "512 Water bodies": "80f2e6",
+
+    "521 Coastal lagoons": "00ffa6",
+    "522 Estuaries": "a6ffe6",
+    "523 Sea and ocean": "e6f2ff"
 }
 
 codes = [int(k[:3]) for k in legend_dict.keys()]
